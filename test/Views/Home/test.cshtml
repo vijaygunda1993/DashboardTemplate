@@ -1,0 +1,38 @@
+﻿
+@{
+    ViewData["Title"] = "test";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href='~/css/test.css' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <a href="#0" class="cd-logo"><img src="~/Images/logo-dellstorage.png" height="30" alt="Logo"></a>
+    <input type="checkbox" id="menu">
+    <nav>
+        <ul>
+            <li><a href="#0" style="font-size:medium">Account</a></li>
+
+        </ul> <label for="menu" class="menu-bar"> <i class="fa fa-bars"></i> </label>
+    </nav>
+    <div class="side-menu">
+       <br> <a href="#"><i class="fa fa-user"></i><span>Cart</span></a>
+        <a href="#"><i class="fa fa-envelope"></i><span>Quote</span></a>
+        <a href="#"><i class="fa fa-shopping-basket"></i><span>Sales Order</span></a>
+        @*<a href="#"><i class="fa fa-sellsy"></i><span>Statistices</span></a>
+        <a href="#"><i class="fa fa-ban"></i><span>Ban Customers</span></a>
+        <a href="#"><i class="fa fa-cog"></i><span>Setting</span></a>
+        <a href="#" class="Logout"><span>Logout</span></a>*@
+    </div>
+    <div class="data"> </div>
+</body>
+
+</html>
+
